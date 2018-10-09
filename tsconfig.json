@@ -20,6 +20,8 @@
   },
   "include": [
     "src/**/*.ts",
+    "config/**/*.ts",
+    "env/**/*.ts",
   ],
   "paths": {
     "@/*": ["src/*"]
