@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "no-empty": true,
+    "no-shadowed-variable": true,
+    "no-empty-interface": true,
+    "no-consecutive-blank-lines": false,
+    "no-console": false,
+
+    "interface-over-type-literal": false,
+    "interface-name": false,
+
+    "object-literal-sort-keys": false,
+    "ordered-imports": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**",
+    ]
+  },
+}

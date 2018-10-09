@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es6",
+      "es5",
+      "es2015",
+      "dom",
+    ],
+
+    "module": "commonjs",
+    "target": "es5",
+
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "importHelpers": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "**/*.ts",
+  ],
+  "paths": {
+    "@/*": ["src/*"]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+  ]
+}
